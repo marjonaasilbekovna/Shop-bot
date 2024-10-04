@@ -1,0 +1,73 @@
+Reja: Shop bot 
+/reg  - Ro'yxatdan o'tish boshlanadi | fiydalanuvchi ma'lumotlari adminga yuboriladi
+
+About us - Do'kon xaqida ma'lumot
+Location - Do'kon lakatsiyasini olish uchun
+Laplop - Noutbuk lar haqida ma'lumot
+Phone - Telefon lar haqida ma'lumot
+Contact admin - Bot yaratuvchisi haqida ma'lumot
+
+
+
+# foydalanuvchi /start tugmasini bosganda ro'yxatdan o'tish boshlansin !
+# ro'yxatdan o'tib bo'lgach uninig uchun menu ko'rinadi
+# Telefon raqam yuborish !
+# Locatsiya yuborish
+# baza noutbuk telefon ni chiqarish
+# orqaga 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# from aiogram.types import KeyboardButton,ReplyKeyboardMarkup
+# from aiogram.utils.keyboard import ReplyKeyboardBuilder
+
+# main_button = ReplyKeyboardMarkup(
+#     keyboard=[
+#         [KeyboardButton(text="💻 Computers"),KeyboardButton(text="📱 Phones")],
+#         [KeyboardButton(text="💁🏻‍♂️ About us"),KeyboardButton(text="📍 Location")],
+#         [KeyboardButton(text="☎️ Contact admin")]
+
+#     ],
+#     resize_keyboard=True,
+#     input_field_placeholder="Choise button..."
+# )
+
+# computers = [
+#     "Mackbook",
+#     "Lenovo",
+#     "HP",
+#     "ASUS",
+#     "Victus",
+#     "ACER",
+#     "Samsung"
+# ]
+
+# computers_info = {
+#     "Mackbook":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":1200,"color":"Black"},
+#     "Lenovo":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":500,"color":"Blue"},
+#     "HP":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":500,"color":"Blue"},
+#     "ASUS":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":500,"color":"Blue"},
+#     "Victus":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":500,"color":"Blue"},
+#     "ACER":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":500,"color":"Blue"},
+#     "Samsung":{"photo":"https://univershop.uz/wp-content/uploads/2023/10/3-2.jpg","price":500,"color":"Blue"},
+
+# }
+
+# computer_button = ReplyKeyboardBuilder()
+
+# for computer in computers:
+#     computer_button.add(KeyboardButton(text=computer))
+
+# computer_button.adjust(2,repeat=True)
+# computer_button = computer_button.as_markup(resize_keyboard=True,input_field_placeholder="Choise computer...")
